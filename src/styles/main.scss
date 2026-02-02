@@ -1,5 +1,6 @@
 @import './utils/variables';
 @import './utils/mixins';
+<<<<<<< HEAD
 @import './blocks/header';
 @import './blocks/page';
 @import './blocks/top-bar';
@@ -17,3 +18,12 @@
 @import './blocks/form';
 @import './blocks/text';
 @import './blocks/footer';
+=======
+
+@import 'blocks/header';
+@import 'blocks/page';
+@import 'blocks/top-bar';
+@import 'blocks/icon';
+@import 'blocks/menu';
+@import 'blocks/nav';
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7

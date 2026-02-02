@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 @mixin on-tablet {
   @media (min-width: $table-min-width) {
+=======
+@mixin onTablet {
+  @media (min-width: 576px) {
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
     @content;
   }
 }
 
+<<<<<<< HEAD
 @mixin on-desktop {
   @media (min-width: $desktop-min-width) {
     @content;
@@ -46,4 +52,12 @@
   @include on-desktop {
     --columns: 12;
   }
+=======
+@mixin contentPaddingInline() {
+  padding-inline: 20px;
+
+  @include onTablet {
+    padding-inline: 72px;
+  }
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
 }

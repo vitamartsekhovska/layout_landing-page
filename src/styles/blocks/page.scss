@@ -1,5 +1,9 @@
 .page {
+<<<<<<< HEAD
   font-family: Poppins, sans-serif;
+=======
+  font-family: 'Poppins', sans-serif;
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   font-size: 16px;
   line-height: 140%;
   color: $main-text-color;
@@ -8,7 +12,10 @@
 
   &__body {
     margin: 0;
+<<<<<<< HEAD
     min-width: 320px;
+=======
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   }
 
   &__menu {
@@ -17,13 +24,18 @@
     right: 0;
     left: 0;
 
+<<<<<<< HEAD
     transition: all $effect-duration;
     opacity: 0;
     transform: translateX(-100%);
+=======
+    opacity: 0;
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
     pointer-events: none;
 
     &:target {
       opacity: 1;
+<<<<<<< HEAD
       transform: translateX(0);
       pointer-events: all;
     }
@@ -33,3 +45,11 @@
     overflow: hidden;
   }
 }
+=======
+      pointer-events: all;
+    }
+  }
+}
+
+
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7

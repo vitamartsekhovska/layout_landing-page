@@ -1,13 +1,21 @@
 .top-bar {
   padding-block: 24px;
+<<<<<<< HEAD
 
   @include content-padding-inline;
+=======
+  @include contentPaddingInline;
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
+<<<<<<< HEAD
   @include on-tablet {
+=======
+  @include onTablet {
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
     padding-block: 36px;
   }
 
@@ -16,6 +24,7 @@
     gap: 24px;
   }
 
+<<<<<<< HEAD
   &__logo-link {
     display: flex;
   }
@@ -29,4 +38,9 @@
       height: 56px;
     }
   }
+=======
+  &__logo {
+    display: flex;
+  }
+>>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
 }
