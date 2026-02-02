@@ -1,0 +1,34 @@
+.about-us {
+  @include page-grid;
+
+  &__title {
+    grid-column: 1 / -1;
+
+    @include on-tablet {
+      grid-column: 1 / 4;
+    }
+
+    @include on-desktop {
+      grid-column: 1 / 6;
+    }
+  }
+
+  &__description {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-bottom: 92px;
+    grid-column: 1 / -1;
+
+    @include on-tablet {
+      grid-column: 4 / 7;
+      margin-top: 0;
+      margin-bottom: 132px;
+    }
+
+    @include on-desktop {
+      grid-column: 6 / 13;
+      margin-bottom: 164px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.main {
+  background-color: $secondary-color;
+  display: grid;
+  padding-top: 60px;
+
+  @include content-padding-inline;
+
+  @include on-tablet {
+    padding-top: 120px;
+  }
+
+  @include on-desktop {
+    padding-top: 120px;
+  }
+}

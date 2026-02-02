@@ -4,9 +4,19 @@
   background-color: #c2c2c2;
   font-weight: 600;
   text-transform: uppercase;
+  overflow: auto;
 
   &__top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #c2c2c2;
+
     margin-bottom: 24px;
+
+    @include on-tablet {
+      margin-bottom: 0;
+    }
   }
 
   &__nav {
@@ -21,9 +31,11 @@
     display: block;
     font-size: 12px;
     line-height: 27px;
-    color: $menu-text-color;
+    color: $secondary-color;
     text-decoration: none;
     margin-bottom: 16px;
+
+    @include hover(color, lighten($secondary-color, 20%));
   }
 
   &__book-a-test-ride {
@@ -31,12 +43,14 @@
     width: fit-content;
 
     padding-bottom: 8px;
-    border-bottom: 1px solid $menu-text-color;
+    border-bottom: 1px solid $secondary-color;
 
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 2px;
-    color: $menu-text-color;
+    color: $secondary-color;
     text-decoration: none;
+
+    @include hover(color, lighten($secondary-color, 20%));
   }
 }
