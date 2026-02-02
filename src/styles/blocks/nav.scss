@@ -1,16 +1,11 @@
 .nav {
   &__link {
-<<<<<<< HEAD
     position: relative;
     color: $secondary-color;
-=======
-    color: $menu-text-color;
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
     text-decoration: none;
     font-size: 22px;
     line-height: 22px;
     letter-spacing: 2px;
-<<<<<<< HEAD
 
     &::after {
       content: '';
@@ -29,8 +24,6 @@
     &:hover::after {
       transform: scale(1);
     }
-=======
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   }
 
   &__list {
@@ -43,7 +36,3 @@
     gap: 32px;
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7

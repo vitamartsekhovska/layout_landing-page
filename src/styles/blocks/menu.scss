@@ -1,7 +1,6 @@
 .menu {
   box-sizing: border-box;
   height: 100vh;
-<<<<<<< HEAD
   background-color: #c2c2c2;
   font-weight: 600;
   text-transform: uppercase;
@@ -18,14 +17,6 @@
     @include on-tablet {
       margin-bottom: 0;
     }
-=======
-  background-color: #C2C2C2;
-  font-weight: 600;
-  text-transform: uppercase;
-
-  &__top {
-    margin-bottom: 24px;
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   }
 
   &__nav {
@@ -33,28 +24,18 @@
   }
 
   &__content {
-<<<<<<< HEAD
     @include content-padding-inline;
-=======
-    @include contentPaddingInline;
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   }
 
   &__phone-number {
     display: block;
     font-size: 12px;
     line-height: 27px;
-<<<<<<< HEAD
     color: $secondary-color;
     text-decoration: none;
     margin-bottom: 16px;
 
     @include hover(color, lighten($secondary-color, 20%));
-=======
-    color: $menu-text-color;
-    text-decoration: none;
-    margin-bottom: 16px;
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   }
 
   &__book-a-test-ride {
@@ -62,27 +43,14 @@
     width: fit-content;
 
     padding-bottom: 8px;
-<<<<<<< HEAD
     border-bottom: 1px solid $secondary-color;
-=======
-    border-bottom: 1px solid $menu-text-color;
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
 
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 2px;
-<<<<<<< HEAD
     color: $secondary-color;
     text-decoration: none;
 
     @include hover(color, lighten($secondary-color, 20%));
   }
 }
-=======
-    color: $menu-text-color;
-    text-decoration: none;
-  }
-}
-
-
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7

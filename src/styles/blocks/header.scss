@@ -17,18 +17,14 @@
     line-height: 100%;
     letter-spacing: -1.5px;
     text-align: center;
-<<<<<<< HEAD
 
     @include on-tablet {
       font-size: 64px;
     }
-=======
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
   }
 
   &__bottom {
     padding-bottom: 88px;
-<<<<<<< HEAD
 
     @include content-padding-inline;
 
@@ -41,10 +37,3 @@
     }
   }
 }
-=======
-    @include contentPaddingInline;
-  }
-}
-
-
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7

@@ -16,9 +16,5 @@
     text-decoration: none;
     display: inline-block;
     transition: color $effect-duration;
-
-    &:hover {
-      color: color.adjust($main-text-color, $lightness: -20%);
-    }
   }
 }

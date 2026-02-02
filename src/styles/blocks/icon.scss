@@ -4,19 +4,14 @@
   display: block;
   background-size: cover;
 
-<<<<<<< HEAD
   @include hover(transform, scale(1.2));
 
   @include on-tablet {
-=======
-  @include onTablet {
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
     height: 32px;
     width: 32px;
   }
 
   &--phone {
-<<<<<<< HEAD
     background-image: url(/src/images/icons/icon-phone-svg.svg);
   }
 
@@ -32,18 +27,3 @@
     background-image: url(/src/images/icons/icon-close-svg.svg);
   }
 }
-=======
-    background-image: url(/src/images/icons/icon-phone.png);
-  }
-
-  &--menu {
-    background-image: url(/src/images/icons/icon-burger-menu.png);
-  }
-
-  &--close {
-    background-image: url(/src/images/icons/icon-close.png);
-  }
-}
-
-
->>>>>>> de356e7ee5812c5a8a974ee50feb78618a15aab7
