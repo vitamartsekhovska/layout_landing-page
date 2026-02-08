@@ -16,6 +16,29 @@
     gap: 24px;
   }
 
+  &__phone-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__phone-number {
+    font-size: 12px;
+    font-weight: 700;
+    color: $main-text-color;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    opacity: 0;
+    transform: translateX(8px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+
+  &__phone-wrapper:hover &__phone-number {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
   &__logo-link {
     display: flex;
   }

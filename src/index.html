@@ -54,11 +54,14 @@
         </a>
 
         <div class="top-bar__icons">
-          <a
-            href="tel:+12345555555"
-            class="icon icon--phone"
-            aria-label="Call us"
-          ></a>
+          <div class="top-bar__phone-wrapper">
+            <span class="top-bar__phone-number">+1 234 5555-55-55</span>
+            <a
+              href="tel:+12345555555"
+              class="icon icon--phone"
+              aria-label="Call us"
+            ></a>
+          </div>
           <a
             href="#menu"
             class="icon icon--menu"
@@ -351,7 +354,7 @@
 
         <div class="details__button">
           <button
-            type="submit"
+            type="button"
             class="details__button--position details__button--values"
           >
             Explore
@@ -367,7 +370,10 @@
 
         <div class="contacts__wrapper">
           <div class="contacts__forms">
-            <form class="form">
+            <form
+              class="form"
+              onsubmit="this.reset(); return false;"
+            >
               <input
                 class="form__input form__input--small"
                 type="text"
