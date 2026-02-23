@@ -9,8 +9,11 @@
   box-sizing: border-box;
   width: 100%;
   padding: 14px 16px;
+  background-color: $form-color;
   border: 1px solid $form-color;
   font-size: 14px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
   color: $color-input-default;
 
   &--small {
@@ -24,15 +27,29 @@
     resize: none;
   }
 
-  &:focus {
-    border-color: #6c63ff;
-    outline: none;
-    color: $secondary-color;
-  }
-
   &::placeholder {
     color: $color-input-default;
     opacity: 1;
+  }
+
+  &:not(:placeholder-shown) {
+    color: $color-input;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    color: $color-input;
+  }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px $form-color inset;
+    box-shadow: 0 0 0 1000px $form-color inset;
+    -webkit-text-fill-color: $color-input;
   }
 }
 
